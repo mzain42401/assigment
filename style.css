@@ -1,0 +1,414 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+    color: #ffffff;
+}
+
+/* -----------NAVBAR-----------*/
+
+.NavBar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #303030;
+    color: #fff;
+    width: 100%;
+    height: 60px;
+}
+
+.subContainer {
+    width: 45%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-left: 65px;
+}
+
+#smile {
+    font-size: 30px;
+    color: yellow;
+}
+
+.logo {
+    font-size: 30px;
+    font-family: sans-serif;
+    font-weight: bold;
+}
+
+.icons {
+    margin-right: 10px;
+    padding-left: 10px;
+    cursor: pointer;
+}
+
+ul li {
+    list-style: none;
+    display: inline-block;
+    margin: 0px 20px;
+    font-size: 12px;
+    padding: 5px;
+}
+
+ul li a {
+    color: #ffffff;
+    text-decoration: none;
+}
+
+ul li a:hover {
+    color: yellow;
+}
+
+/* -------------HOME---------------------------- */
+
+
+#home {
+    background: #303030;
+    height: 600px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.subHome {
+    width: 90%;
+    height: 420px;
+    position: relative;
+}
+
+.div1 {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    position: absolute;
+    left: 0;
+    z-index: 1;
+}
+
+.im {
+    font-size: 50px;
+    color: gray;
+    margin-bottom: 5px;
+    margin-top: 40px;
+
+}
+
+.ZainAli {
+    font-size: 80px;
+    font-weight: bolder;
+    color: #fff;
+}
+
+.line {
+    width: 40%;
+    margin-top: 25px;
+    margin-bottom: 25px;
+    height: 6px;
+    background-color: yellow;
+}
+
+.content1 {
+    width: 300px;
+}
+
+.content1 p {
+    color: gray;
+    line-height: 25px;
+}
+
+.div2 {
+    border-radius: 50%;
+    background: #222222;
+    position: absolute;
+    left: 50%;
+    top: -20%;
+    transform: translate(-50%);
+    height: 480px;
+    width: 480px;
+}
+.myPic{
+   height:490px; 
+    width:450px 
+}
+.img {
+    position: absolute;
+    left: 50%;
+    transform: translate(-55%);
+    top: 10%;
+}
+
+.div3 {
+    width: 33%;
+    position: absolute;
+    right: 0;
+    top: 0;
+    z-index: 1;
+}
+.services {
+    font-size: 20px;
+    margin-bottom: 10px;
+    color: gray;
+}
+
+.servicesContent {
+    color: rgb(197, 196, 196);
+    font-size: 29px;
+    font-family: sans-serif;
+}
+
+#show {
+    margin-top: 20px;
+    color: yellow;
+}
+
+#showArrow {
+    color: yellow;
+    margin-left: 15px;
+}
+
+.brandPara {
+    display: flex;
+    margin-top: 20px;
+}
+
+.brands {
+    font-size: 20px;
+    height: 35px;
+    width: 35px;
+    background-color: gray;
+    margin-right: 10px;
+    border-radius: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.fa-facebook-f,
+.fa-twitter,
+.fa-instagram,
+.fa-pinterest-p {
+    color: yellow;
+    cursor: pointer;
+
+}
+
+
+/* --------------------------------second Page---------------------------------- */
+
+#secondPage{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 1100px;
+    background-color: #222222;
+}
+.secondPageContent {
+    height:1050px ;
+    width: 90%;
+    position: relative;
+}
+
+
+.companys {
+    height: 120px;
+    width: 70%;
+    background-color: #303030;
+    position: absolute;
+    left: 50%;
+    transform: translate(-50%, -70%);
+    box-shadow: 0px 0px 20px black;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.companyText {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 170px;
+    height: 60px;
+    background-color: #222222;
+}
+
+#companyLogoMeta {
+    font-size: 25px;
+    color: #0668E1;
+}
+
+.companyLogoText {
+    font-size: 20px;
+    margin-left: 5px;
+}
+
+#companyLogoGoogle {
+    height: 80px;
+}
+
+#companyLogolinkedin {
+    font-size: 25px;
+    color: #0668E1;
+    margin-left: 5px;
+}
+
+#slackImage {
+    height: 30px;
+}
+
+.SlackText {
+    font-size: 20px;
+    margin-left: 5px;
+}
+
+.SecondPageCenter {
+    height: 600px;
+    width: 90%;
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -60%);
+    display: flex;
+    justify-content: space-between;
+}
+
+.container1 {
+    width: 40%;
+    font-size: 35px;
+    font-weight: bold;
+}
+
+.container1>h3 {
+    margin-top: 1 0px;
+}
+
+.container1>p {
+    font-size: 17.5px;
+    font-weight: lighter;
+    margin-top: 30px;
+
+}
+
+.number {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    margin-top: 50px;
+}
+
+.box {
+    width: 40%;
+}
+
+#box1,
+#box2,
+#box3,
+#box4 {
+    color: yellow;
+    margin-top: 30px
+}
+
+.boxText {
+    font-size: 17px;
+    margin-top: 10px;
+    font-weight: lighter;
+    color: gray;
+
+}
+
+.container2 {
+    width: 49%;
+}
+
+.card1,
+.card2,
+.card3 {
+    display: flex;
+     align-items: center;
+
+}
+
+.card2,
+.card3 {
+    margin-top: 33px;
+}
+
+.UiImage {
+    height: 130px;
+    width: 200px;
+}
+
+.cardName {
+    font-size: 20px;
+    font-weight: bold;
+    margin-left: 10px;
+}
+
+#Arrow1,#Arrow2,#Arrow3 {
+    color: yellow;
+    font-size: 25px;
+    position: absolute;
+    right: 50px;
+}
+
+ 
+.projects {
+    margin-left: 10px;
+    color: gray;
+}
+
+.main {
+    width: 100%;
+    height: 300px;
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%,60%);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.subMain{
+    width: 290px;
+    height: 250px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding:  0px 20px;
+    background: #303030;
+    box-shadow: 0px 0px 20px black;
+          border-radius: 5px;
+}
+.MainHeading{
+    font-size: 28px;
+    font-weight: bold;
+    margin: 20px 0px;
+}
+#laptop{
+    color:yellow ;
+    font-size: 35px;
+}
+#mobileDevelopment{
+    color:yellow ;
+    font-size: 35px;
+}
+#UIUX{
+    color:yellow ;
+    font-size: 35px;
+}
+
+/*---------------------- footer --------------*/
+
+.footer{
+    height: 60px;
+    background-color: #303030;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+.name{
+    color: yellow;
+font-weight: lighter;
+}
